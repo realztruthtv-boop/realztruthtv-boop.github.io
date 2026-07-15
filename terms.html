@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service — Reddit Story Video Generator</title>
+<style>
+  :root { --paper: #FBF9F6; --ink: #201F29; --muted: #6E6A78; --accent: #5B4FD6; --accent-soft: #EDE9FB; --rule: #E3E0EA; --serif: Georgia, "Iowan Old Style", "Palatino Linotype", ui-serif, serif; --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; }
+  @media (prefers-color-scheme: dark) { :root { --paper: #15141B; --ink: #EDEBF3; --muted: #9B96A8; --accent: #9585F0; --accent-soft: #26223A; --rule: #2B2935; } }
+  :root[data-theme="dark"] { --paper: #15141B; --ink: #EDEBF3; --muted: #9B96A8; --accent: #9585F0; --accent-soft: #26223A; --rule: #2B2935; }
+  :root[data-theme="light"] { --paper: #FBF9F6; --ink: #201F29; --muted: #6E6A78; --accent: #5B4FD6; --accent-soft: #EDE9FB; --rule: #E3E0EA; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  .doc { max-width: 680px; margin: 0 auto; padding: 64px 24px 96px; }
+  .doc-header { margin-bottom: 48px; padding-bottom: 32px; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 0 0 12px; }
+  h1 { font-family: var(--serif); font-size: clamp(28px, 5vw, 38px); line-height: 1.15; margin: 0 0 16px; text-wrap: balance; }
+  .meta { display: flex; flex-wrap: wrap; gap: 4px 20px; font-family: var(--mono); font-size: 13px; color: var(--muted); }
+  .meta strong { color: var(--ink); font-weight: 600; }
+  h2 { font-family: var(--serif); font-size: 21px; line-height: 1.3; margin: 40px 0 12px; display: flex; align-items: baseline; gap: 10px; }
+  h2 .num { font-family: var(--mono); font-size: 14px; color: var(--accent); font-weight: 600; }
+  p { font-size: 16px; line-height: 1.65; color: var(--ink); margin: 0 0 14px; max-width: 62ch; }
+  p.lead { font-size: 17px; color: var(--muted); }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { font-size: 16px; line-height: 1.65; margin-bottom: 8px; max-width: 60ch; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .callout { background: var(--accent-soft); border-radius: 8px; padding: 16px 18px; margin: 20px 0; }
+  .callout p { margin: 0; font-size: 15px; }
+  .doc-footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
+  .doc-footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="doc">
+  <div class="doc-header">
+    <p class="eyebrow">Legal</p>
+    <h1>Terms of Service</h1>
+    <div class="meta">
+      <span><strong>App</strong> Reddit Story Video Generator</span>
+      <span><strong>Effective</strong> July 15, 2026</span>
+    </div>
+  </div>
+  <p class="lead">This is a personal software project. These terms describe how it works and who's responsible for what — there's no account to sign up for and nothing here is a commercial service.</p>
+  <h2><span class="num">1</span> What this is</h2>
+  <p>Reddit Story Video Generator is a personal tool built and operated by a single individual (the "Operator") for generating short-form narrated videos and, optionally, publishing them to the Operator's own YouTube and TikTok accounts. It is not distributed, sold, or offered as a service to any other user.</p>
+  <h2><span class="num">2</span> Single-operator use</h2>
+  <p>The app runs locally on the Operator's own computer and connects only to accounts the Operator owns and has explicitly authorized via OAuth. There is no multi-user access, no public sign-up, and no third party can use this installation.</p>
+  <h2><span class="num">3</span> Human review before publishing</h2>
+  <div class="callout"><p>Every video is generated automatically, but nothing is published to YouTube or TikTok without the Operator manually reviewing and approving it first. The Operator is solely responsible for the content of anything they choose to publish.</p></div>
+  <h2><span class="num">4</span> AI-generated content</h2>
+  <p>Narration, story text, and background visuals in these videos are generated using AI tools. Every video published through this app is labeled as synthetic/AI-generated media using each platform's native disclosure mechanism (YouTube's altered-content label, TikTok's AI-generated content label).</p>
+  <h2><span class="num">5</span> Third-party services</h2>
+  <p>The app calls third-party APIs to do its work, each governed by its own terms:</p>
+  <ul>
+    <li>ElevenLabs — voice narration</li>
+    <li>Anthropic (Claude) — story and metadata writing</li>
+    <li>Pollinations.ai — background image generation</li>
+    <li>YouTube Data API and TikTok Content Posting API — publishing, when approved</li>
+  </ul>
+  <h2><span class="num">6</span> No warranty</h2>
+  <p>This software is provided as-is, without warranty of any kind. It's a personal project, not a maintained commercial product, and may change or stop working at any time.</p>
+  <h2><span class="num">7</span> Changes to these terms</h2>
+  <p>These terms may be updated as the project evolves. The effective date above reflects the most recent revision.</p>
+  <div class="doc-footer">Questions about these terms can be sent to <a href="mailto:realztruthtv@gmail.com">realztruthtv@gmail.com</a>.</div>
+</div>
+</body>
+</html>
